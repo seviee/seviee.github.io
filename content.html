@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+<title>COMPSCI 3</title>
+<style>
+
+body, html {
+  height: 100%;
+  font-family: "Gill Sans", serif;
+  margin: 0;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://lh3.ggpht.com/-a05s1f2IcpY/UYH_nx-e_HI/AAAAAAAAoAM/IPYfibKjsaw/manila-cemetery-5%25255B2%25255D.jpg?imgmax=800");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.tab{
+  text-indent: 40px;
+}
+
+</style>
+
+
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="content.html" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="data.html" class="w3-button w3-block w3-black">DATA</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-button w3-block w3-black">ME</a>
+    </div>
+  </div>
+</div>
+
+
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+    <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">PSHS-CLC</span>
+  </div>
+</header>
+
+<div class="w3-sand w3-grayscale w3-large">
+
+</div>
+
+  <div class="w3-content" style="max-width:700px">
+
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">"Too Many, Too Little"</span></h5>
+
+
+	<div class= "tab">By the year 2050, the sum of the global population is expected to reach 9 billion people, a rise from the 3.5 billion we have today. With the Philippines having an average of 41,282 per square kilometer, how are we handling the rapid growth? Current residents of Manila, the capital, already uses cemeteries, railroad tracks, bridges, garbage dumps, and even streets as homes; how will be able to handle the upcoming crisis? We are running out of space. A solution? Terminate the poor.</div><br>
+
+	<div class= "tab">Slums of Manila already reaches a total of 88,00 people living per square kilometer, doubling the average. Families that sleep in squatter areas are all from lower classes. In spite of having an underemployment rate of 6.6% higher than our ASEAN neighbors, rural areas still have families with an average of 3.8 children while urban areas only have 2.8 children per woman. Statistics prove that the poor contributes to overpopulation more than the middle-class and the rich. What else could they do? They don’t have any jobs, so they just keep contributing to social issues. Moreover, with the poor gone, laws like The Responsible Parenthood and Reproductive Health Act of 2012, also known as the Reproductive Health Law or RH Law, can now easily be spread and taught that can help in education about fertility control, sexual intercourses, and maternal care. Like with animals, natural selection is a must. It allows species to evolve and gives way to diversify. This can be the case for humans, too. If the poor does not contribute to the wellness of the country and can’t keep up with the global and national modernization, why not just eliminate them?</div><br>
+
+	<div class= "tab">Is the fight against poverty really still worth fighting for? A minimum wage of 537php per day, how can a family get full nutrition and survive every day? Even if they earn enough to survive another day, they still won’t feel contented and happy. They won’t have any luxury to relax because of their status. “Ambisyon Natin 2040” by NEDA shows that 79% of the survey-takers want a simple life but how? It takes a family income of 120,000php per month to achieve this, how can the poor, lowest of the lows, with no education, overcome their current state and earn 120,000php? A miracle is how. Ask those who overcame poverty, all it took was luck. Coming from a family that used to live a 100 square meter house and sometimes in a car, my parents needed to work thrice as hard. It was luck and a lot of hard work and not everyone has luck, most importantly, not everyone gets job opportunities.</div><br>
+
+	 <div class= "tab">Either way, who cares if the poor dies? Almost all of their relatives are poor too, so they’ll be gone as well. People say we need to look at the silver lining of things and well here it is. We’ll just consider them as heroes who sacrificed themselves to help the world become a better place. More people can mean more resources needed and resources are not unlimited. In few years’ time, are we sure we can have space for one more?</div><br>
+
+
+  </div>
+
+
+  <div class="w3-content w3-padding-32" style="max-width:700px">
+ 
+      <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Then');" id="myLink">
+        <div class="w3-col s6 tablink">Then</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Now');">
+        <div class="w3-col s6 tablink">Now</div>
+      </a>
+    </div>
+
+    <div id="Then" class="w3-container menu w3-padding-48 w3-card">
+      <img src="https://images.populationpyramid.net/capture/?selector=%23pyramid-share-container&url=https%3A%2F%2Fwww.populationpyramid.net/philippines/2000/%3Fshare%3Dtrue" class="center" alt="2000 Population">
+   
+    </div>
+
+    <div id="Now" class="w3-container menu w3-padding-48 w3-card">
+      <img src="https://images.populationpyramid.net/capture/?selector=%23pyramid-share-container&url=https%3A%2F%2Fwww.populationpyramid.net/philippines/2020/%3Fshare%3Dtrue" class="center" alt="2020 Population">
+
+    </div>
+</div>
+
+
+
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
